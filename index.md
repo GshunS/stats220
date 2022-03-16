@@ -3,7 +3,7 @@
 
 1. **My meme**
 
-![](myMeme.png)
+    - ![](myMeme.png)
 
 2. **Why to create this meme?**
     - I learnt these 3 programming languages at stage 1 and 2.
@@ -21,6 +21,7 @@
     - [About Python](https://www.python.org/about/)
     - [About Java](https://www.java.com/en/download/help/whatis_java.html)
 6. **The r code for my meme**
+
 ```r
 library(magick)
 
