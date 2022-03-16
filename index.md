@@ -15,11 +15,13 @@
     - Using ```image_composite()``` to combine the backgruond and the icon image on a specific position.
     - Finally, I uesd ```image_append()``` to put them together.
 4. ***Fun stuff***
-    - The relationship between background colors and icon colors. 
+    - What is the relationship between background colors and icon colors?
 5. **Extra**
     - [About R](https://www.r-project.org/about.html)
     - [About Python](https://www.python.org/about/)
     - [About Java](https://www.java.com/en/download/help/whatis_java.html)
+    - Below is a image from online
+    - ![](https://www.seasiainfotech.com/blog/wp-content/uploads/2018/07/javapython_Blog.jpg)
 6. **The r code for my meme**
 
 ```r
