@@ -1,8 +1,11 @@
-# Title
-# second title
+# Introduce to my meme
+## Three programming language icons
 
-1. My meme is 
-    ![](meme.png)
+1. **My meme**
+
+![](myMeme.png)
+
+2. **The r code for my meme**
 ```r
 library(magick)
 
@@ -76,3 +79,14 @@ final_image <- c(r_overlap_image, python_overlap_image, java_overlap_image) %>%
 final_image
 image_write(final_image, "myMeme.png")
 ```
+3. **Why to create this meme?**
+    - I learnt these 3 programming languages at stage 1 and 2.
+    - I want to create an image for them.
+4. **How was this meme created?**
+    - This meme is made of 9 different images
+    - Each promgramming language image contains 3 sub-images
+    - The background color(2 images with different colors) and the language icon
+    - Using ```image_composite()``` to combine the backgruond and the icon image on a specific position.
+    - Finally, I uesd ```image_append()``` to put them together.
+5. ***Fun stuff***
+    - The relationship between background colors and icon colors.
