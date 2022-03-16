@@ -20,7 +20,7 @@
     - [About R](https://www.r-project.org/about.html)
     - [About Python](https://www.python.org/about/)
     - [About Java](https://www.java.com/en/download/help/whatis_java.html)
-    - Below is a image from online
+    - Below is an image from online
     - ![](https://www.seasiainfotech.com/blog/wp-content/uploads/2018/07/javapython_Blog.jpg)
 6. **The r code for my meme**
 
