@@ -90,3 +90,7 @@ image_write(final_image, "myMeme.png")
     - Finally, I uesd ```image_append()``` to put them together.
 5. ***Fun stuff***
     - The relationship between background colors and icon colors.
+6. **Extra**
+    - [About R](https://www.r-project.org/about.html)
+    - [About Python](https://www.python.org/about/)
+    - [About Java](https://www.java.com/en/download/help/whatis_java.html)
