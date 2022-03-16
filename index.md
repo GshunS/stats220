@@ -5,7 +5,22 @@
 
 ![](myMeme.png)
 
-2. **The r code for my meme**
+2. **Why to create this meme?**
+    - I learnt these 3 programming languages at stage 1 and 2.
+    - I want to create an image for them.
+3. **How was this meme created?**
+    - This meme is made of 9 different images
+    - Each promgramming language image contains 3 sub-images
+    - The background color(2 images with different colors) and the language icon
+    - Using ```image_composite()``` to combine the backgruond and the icon image on a specific position.
+    - Finally, I uesd ```image_append()``` to put them together.
+4. ***Fun stuff***
+    - The relationship between background colors and icon colors. 
+5. **Extra**
+    - [About R](https://www.r-project.org/about.html)
+    - [About Python](https://www.python.org/about/)
+    - [About Java](https://www.java.com/en/download/help/whatis_java.html)
+6. **The r code for my meme**
 ```r
 library(magick)
 
@@ -79,18 +94,3 @@ final_image <- c(r_overlap_image, python_overlap_image, java_overlap_image) %>%
 final_image
 image_write(final_image, "myMeme.png")
 ```
-3. **Why to create this meme?**
-    - I learnt these 3 programming languages at stage 1 and 2.
-    - I want to create an image for them.
-4. **How was this meme created?**
-    - This meme is made of 9 different images
-    - Each promgramming language image contains 3 sub-images
-    - The background color(2 images with different colors) and the language icon
-    - Using ```image_composite()``` to combine the backgruond and the icon image on a specific position.
-    - Finally, I uesd ```image_append()``` to put them together.
-5. ***Fun stuff***
-    - The relationship between background colors and icon colors.
-6. **Extra**
-    - [About R](https://www.r-project.org/about.html)
-    - [About Python](https://www.python.org/about/)
-    - [About Java](https://www.java.com/en/download/help/whatis_java.html)
